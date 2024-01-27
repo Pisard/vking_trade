@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vking_trade *.css
+recursive-include vking_trade *.csv
+recursive-include vking_trade *.html
+recursive-include vking_trade *.ico
+recursive-include vking_trade *.js
+recursive-include vking_trade *.json
+recursive-include vking_trade *.md
+recursive-include vking_trade *.png
+recursive-include vking_trade *.py
+recursive-include vking_trade *.svg
+recursive-include vking_trade *.txt
+recursive-exclude vking_trade *.pyc
